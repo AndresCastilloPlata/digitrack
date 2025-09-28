@@ -1,19 +1,32 @@
 name: digitrack
-description: "A new Flutter project."
+description: "A simple budget tracking app built with Flutter and Clean Architecture."
 publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: ^3.9.2
+  # Versión de SDK estable y compatible con Flutter 3.35.4
+  sdk: '>=3.30.0 <4.0.0' 
 
 dependencies:
   flutter:
     sdk: flutter
+  # Versiones estables y actuales de Riverpod (2.x)
+  flutter_riverpod: ^2.5.1 
+  riverpod: ^2.5.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
 
 dev_dependencies:
+  # Versiones estables de generadores y linters
+  build_runner: ^2.4.9
+  custom_lint: ^0.6.4 
+  flutter_lints: ^3.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.1
+  # Versiones estables de Riverpod Generators (2.x)
+  riverpod_generator: ^2.4.0 
+  riverpod_lint: ^2.3.10
 
 flutter:
   uses-material-design: true

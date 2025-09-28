@@ -12,3 +12,9 @@ Este proyecto tiene un enfoque educativo para:
 ## ⚙️ Estructura del Proyecto (Arquitectura Limpia)
 
 La carpeta `lib` está organizada por capas, asegurando la separación de responsabilidades:
+
+## 🛠️ Tecnologías Clave
+
+* **Framework:** Flutter 3.x
+* **Manejo de Estado:** Riverpod
+* **Persistencia Local:** Hive (Base de datos NoSQL ligera)
