@@ -5,7 +5,7 @@ version: 0.1.0
 
 environment:
   # Versión de SDK estable y compatible con Flutter 3.35.4
-  sdk: '>=3.30.0 <4.0.0' 
+  sdk: '>=3.0.0 <4.0.0' 
 
 dependencies:
   flutter:
@@ -27,6 +27,7 @@ dev_dependencies:
   # Versiones estables de Riverpod Generators (2.x)
   riverpod_generator: ^2.4.0 
   riverpod_lint: ^2.3.10
+  analyzer: ^6.4.1
 
 flutter:
   uses-material-design: true
